@@ -14,8 +14,8 @@ library(dplyr)
 library(ggplot2)
 library(data.table)
 library(stringr)
-file_path <- "C:/Users/I0485672/Downloads/activity.csv"
-data <- read.csv(file_path)
+
+data <- read.csv('https://github.com/ryeking2010/RepData_PeerAssessment1/raw/master/activity.csv')
 ```
 
 ## Analyzing the data
